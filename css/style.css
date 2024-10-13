@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,700&display=swap');
+body {
+  font-family: 'Poppins', serif;
+  background-color: #f7f8fa;
+}
+
+.navbar {
+  background-color: #007bff;
+}
+.footer {
+  background-color: #007bff;
+}
+.card {
+  border: 2px solid transparent; /* Warna border card */
+  border-radius: 0.5rem; /* Rounded corners pada card */
+  width: 500px; /* Atur lebar card */
+}
+.navbar-brand {
+  font-weight: 500;
+}
+.guest-info {
+  display: flex;
+  align-items: flex-start; /* Vertically center the items */
+  margin-bottom: 5px; /* Space between items */
+}
+
+.guest-info i {
+  margin-right: 5px;
+}
+
+.row .guest-info {
+  flex: 2; /* Membuat semua guest-info memiliki lebar yang sama */
+}
+.fasilitas_icon {
+  list-style-type: none; /* Menghilangkan bullet */
+  display: flex; /* Mengatur daftar untuk ditampilkan dalam satu baris */
+  list-style-type: none; /* Menghilangkan bullet */
+}
+.li_icon {
+  display: inline;
+  grid-auto-flow: column; /* Mengatur item dalam kolom */
+  list-style-type: circle;
+}
+
+.icon {
+  margin-bottom: 5px;
+}
+
+.title {
+  margin-left: 4px;
+}
+
+.isi {
+  margin-left: 18px;
+}
+
+.judul {
+  padding-bottom: 15px;
+}
+.custom-bg {
+  background-color: #fcfdfe; /* Warna kuning kustom */
+}
